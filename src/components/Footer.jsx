@@ -1,10 +1,16 @@
 import React from 'react';
-
+import {assets} from '../assets/assets';
 const Footer = () => {
   return (
-    <footer style={{ textAlign: 'center', padding: '1rem 0', background: '#f5f5f5' }}>
-      <p>&copy; {new Date().getFullYear()} ArtifexAI. All rights reserved.</p>
-    </footer>
+    <div className='flex items-center justify-between gap-4 py-3 mt-20'>
+      <img src={assets.logo} alt="" width={150}/>
+      <p className='flex-1 border-1 border-gray-400 pl-4 text-sm text-gray-500 max-sm:hidden'>Copyright 2025 @ ArtifexAI - All Right Reserved</p>
+      <div className='flex gap-2.5'>
+      <img src={assets.facebook_icon} alt="" />
+      <img src={assets.instagram_icon} alt="" />
+      <img src={assets.twitter_icon} alt="" />
+      </div>
+    </div>
   );
 };
 

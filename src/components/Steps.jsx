@@ -16,7 +16,7 @@ const Steps = () => {
       {stepsData.map((item,index)=>(
         <div key={index} className='flex items-center gap-4 p-5 px-8 bg-white/20 shadow-md border cursor-pointer hover:scale-[1.02] transition-all duration-300 rounded-lg'>
           <img width={40} src={item.icon} alt="" />
-          <h2 classsName='text-xl font-medium'>{item.title}</h2>
+          <h2 className='text-xl font-medium'>{item.title}</h2>
           <p className='text-orange-500'>{item.description}</p>
         </div>
       ))}

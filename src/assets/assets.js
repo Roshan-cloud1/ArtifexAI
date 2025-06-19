@@ -8,6 +8,9 @@ import rating_star from './rating_star.svg'
 import sample_img_1 from './sample_img_1.png'
 import sample_img_2 from './sample_img_2.png'
 import sample_img_3 from './sample_img_3.jpg'
+import profile_img_1 from './profile_img_1.jpg'
+import profile_img_2 from './profile_img_2.jpg'
+import people_5 from './people_5.jpg'
 import step_icon_1 from './step_icon_1.svg'
 import step_icon_2 from './step_icon_2.svg'
 import step_icon_3 from './step_icon_3.svg'
@@ -54,38 +57,32 @@ export const stepsData = [
       icon: step_icon_3,
     },
   ];
-/*
+
 export const testimonialsData = [
     {
         image:profile_img_1,
-        name:'Manish Mehta',
-        role:'Graphic Designer',
+        name:'Abhinav Upadhyay',
+        role:'Intern at Suvidha Foundation',
         stars:5,
         text:`Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.`
     },
     {
         image:people_5,
-        name:'Anil Nair',
-        role:'TCS',
+        name:'Arpit Gaikwad',
+        role:'Intern at FireBirdVR',
         stars:4,
         text:`Professional work! Delivered on time, with a polished design and smooth user experience.Efficient and detail-oriented.`
     },
     {
-        image:people_2,
-        name:'Arjun Sharma',
-        role:' Mahinda',
+        image:profile_img_2,
+        name:'Rohan Bage',
+        role:'Intern at KloudStack-AI',
         stars:5,
         text:`Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.`
     },
-    {
-        image:people_1,
-        name:'Ravi Patel',
-        role:' Self Business',
-        stars:4,
-        text:`Exceptional web development! Delivered a seamless, responsive site with clean code and great UX. Efficient and detail-oriented.`
-    },
+    
 ]
-*/
+
 export const plans = [
     {
       id: 'Basic',
