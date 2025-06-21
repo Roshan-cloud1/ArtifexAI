@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const transacctionSchema = new mongoose.Schema({
+const transactionSchema = new mongoose.Schema({
   userId: {
     type: String,
     required: true
@@ -8,7 +8,7 @@ const transacctionSchema = new mongoose.Schema({
   plan: {
     type: String,
     required: true,
-    unique: true
+    
   },
   amount: {
     type: Number,
