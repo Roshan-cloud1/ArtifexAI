@@ -1,7 +1,7 @@
 import React,{useContext} from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Result from './pages/Result';
 import BuyCredit from './pages/BuyCredit';
 import Footer from './components/Footer';
