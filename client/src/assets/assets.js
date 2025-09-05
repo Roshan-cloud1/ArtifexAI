@@ -87,19 +87,19 @@ export const plans = [
     {
       id: 'Basic',
       price: 10,
-      credits: 15,
+      credits: 3,
       desc: 'Best for personal use.'
     },
     {
       id: 'Advanced',
       price: 30,
-      credits: 70,
+      credits: 9,
       desc: 'Best for business use.'
     },
     {
       id: 'Premier',
       price: 50,
-      credits: 150,
+      credits: 15,
       desc: 'Best for enterprise use.'
     },
   ]
